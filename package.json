@@ -21,6 +21,10 @@
   "bugs": {
     "url": "https://github.com/pdfme/pdfme/issues"
   },
+  "exports": {
+    "./common": "./packages/common/index.js",
+    "./ui": "./packages/ui/index.js"
+  },
   "workspaces": [
     "packages/common",
     "packages/schemas",
